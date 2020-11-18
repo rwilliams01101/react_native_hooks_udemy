@@ -10,6 +10,10 @@ const HomeScreen = ({ navigation }) => {
         title="Go to Box Demo"
       />
       <Button
+        onPress={() => navigation.navigate("BrewBuzz")}
+        title="Go to BrewBuzz Demo"
+      />
+      <Button
         onPress={() => navigation.navigate("Color")}
         title="Go to Color Demo"
       />
